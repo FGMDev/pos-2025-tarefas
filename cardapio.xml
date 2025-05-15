@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cardapio>
+    <Prato id="1">
+        <Nome>Spaghetti à Macarrão</Nome>
+        <Descricao>Macarrão feito de Macarrão com molho de Macarrão artesanal.</Descricao>
+        <Ingredientes>Espaguete, macarrão, sal, molho de macarrão</Ingredientes>
+        <Preco>32.90</Preco>
+        <Calorias>680</Calorias>
+        <TempoPreparo>25 segundos</TempoPreparo>
+    </Prato>
+
+    <Prato id="2">
+        <Nome>Risoto de Cachorro</Nome>
+        <Descricao>Risoto cremoso com mix de carne de cachorro frescos e parmesão.</Descricao>
+        <Ingredientes>Arroz arbório, carne de cachorro, vinho branco, caldo de legumes, cebola, parmesão, manteiga</Ingredientes>
+        <Preco>38.50</Preco>
+        <Calorias>540</Calorias>
+        <TempoPreparo>30 anos</TempoPreparo>
+    </Prato>
+
+    <Prato id="3">
+        <Nome>Frango Grelhado no Sol</Nome>
+        <Descricao>Peito de frango grelhado usando o calor do Sol.</Descricao>
+        <Ingredientes>Frango, abobrinha, cenoura, pimentão, azeite, ervas finas, Sol</Ingredientes>
+        <Preco>29.00</Preco>
+        <Calorias>450</Calorias>
+        <TempoPreparo>11 meses</TempoPreparo>
+    </Prato>
+
+    <Prato id="4">
+        <Nome>Xml Burguer</Nome>
+        <Descricao>Um XBurguer feito a partir de XML.</Descricao>
+        <Ingredientes>Pão de hambúrguer, carne, queijo, alface, xml, molho</Ingredientes>
+        <Preco>27.90</Preco>
+        <Calorias>790</Calorias>
+        <TempoPreparo>15 horas</TempoPreparo>
+    </Prato>
+
+    <Prato id="5">
+        <Nome>Salada Cledson</Nome>
+        <Descricao>Salada feita puramente com os legumes colhidos na orta de Cledson.</Descricao>
+        <Ingredientes>Alface romana, frango grelhado, parmesão, croutons, molho Caesar</Ingredientes>
+        <Preco>24.50</Preco>
+        <Calorias>370</Calorias>
+        <TempoPreparo>10 dias</TempoPreparo>
+    </Prato>
+</Cardapio>
