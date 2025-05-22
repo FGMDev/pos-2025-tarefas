@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz versao="1.0">
+    <disciplina>Matemática</disciplina>
+    <professor>
+        <nome>Carla Mendes</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+    <turma>2B</turma>
+    <data>2025-05-22</data>
+    <questões>
+        <questão>
+            <enunciado>Qual o valor de 2 + 2?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="sim">4</alternativa>
+                <alternativa correta="nao">5</alternativa>
+                <alternativa correta="nao">6</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a capital da França?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Londres</alternativa>
+                <alternativa correta="sim">Paris</alternativa>
+                <alternativa correta="nao">Roma</alternativa>
+                <alternativa correta="nao">Berlim</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Quem escreveu "Dom Casmurro"?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="nao">José de Alencar</alternativa>
+                <alternativa correta="sim">Machado de Assis</alternativa>
+                <alternativa correta="nao">Carlos Drummond</alternativa>
+                <alternativa correta="nao">Clarice Lispector</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a fórmula da água?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">CO2</alternativa>
+                <alternativa correta="sim">H2O</alternativa>
+                <alternativa correta="nao">O2</alternativa>
+                <alternativa correta="nao">H2SO4</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Em que ano o homem pisou na Lua?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="nao">1965</alternativa>
+                <alternativa correta="nao">1971</alternativa>
+                <alternativa correta="sim">1969</alternativa>
+                <alternativa correta="nao">1975</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
