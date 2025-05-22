@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT proprietario (nome, (email | telefone)+)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+    <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+    <!ELEMENT valor (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento com vista para o mar</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <telefone>(11) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Atlântica</rua>
+            <bairro>Copacabana</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.200.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa com quintal grande</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <email>maria@exemplo.com</email>
+            <telefone>(21) 99876-5432</telefone>
+            <telefone>(21) 98765-4321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardim Botânico</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>250m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 2.300.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet no centro</descricao>
+        <proprietario>
+            <nome>Carlos Lima</nome>
+            <email>carlos.lima@kit.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 280.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chácara com piscina</descricao>
+        <proprietario>
+            <nome>Fernanda Souza</nome>
+            <telefone>(62) 93210-0000</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada da Lagoa</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Goiânia</cidade>
+            <numero>KM 15</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>5000m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 950.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sobrado moderno</descricao>
+        <proprietario>
+            <nome>Bruno Ferreira</nome>
+            <email>bruno@modernhouse.com</email>
+            <telefone>(41) 90000-1234</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua dos Cedros</rua>
+            <bairro>Alto da Glória</bairro>
+            <cidade>Curitiba</cidade>
+            <numero>78</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>180m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 720.000</valor>
+    </imovel>
+</imobiliaria>
