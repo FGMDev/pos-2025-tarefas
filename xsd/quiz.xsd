@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="quiz">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="disciplina" type="xs:string"/>
+        <xs:element name="professor" type="professorType"/>
+        <xs:element name="turma" type="xs:string"/>
+        <xs:element name="data" type="xs:string"/>
+        <xs:element name="questões" type="questoesType"/>
+      </xs:sequence>
+      <xs:attribute name="versao" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="professorType">
+    <xs:sequence>
+      <xs:element name="nome" type="xs:string"/>
+      <xs:element name="matrícula" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="questoesType">
+    <xs:sequence>
+      <xs:element name="questão" type="questaoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="questaoType">
+    <xs:sequence>
+      <xs:element name="enunciado" type="xs:string"/>
+      <xs:element name="pontuação" type="xs:string"/>
+      <xs:element name="alternativas" type="alternativasType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="alternativasType">
+    <xs:sequence>
+      <xs:element name="alternativa" type="alternativaType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="alternativaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="correta" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="sim"/>
+              <xs:enumeration value="nao"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

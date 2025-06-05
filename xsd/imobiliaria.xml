@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns="http://prato.org"
+             xmlns:p="http://prato.org">
+
+    <p:imovel>
+        <p:descricao>Apartamento com vista para o mar</p:descricao>
+        <p:proprietario>
+            <p:nome>João Silva</p:nome>
+            <p:telefone>(11) 91234-5678</p:telefone>
+        </p:proprietario>
+        <p:endereco>
+            <p:rua>Av. Atlântica</p:rua>
+            <p:bairro>Copacabana</p:bairro>
+            <p:cidade>Rio de Janeiro</p:cidade>
+        </p:endereco>
+        <p:caracteristicas>
+            <p:tamanho>120m²</p:tamanho>
+            <p:numQuartos>3</p:numQuartos>
+            <p:numBanheiros>2</p:numBanheiros>
+        </p:caracteristicas>
+        <p:valor>1200000.00</p:valor>
+    </p:imovel>
+
+    <p:imovel>
+        <p:descricao>Casa com quintal grande</p:descricao>
+        <p:proprietario>
+            <p:nome>Maria Oliveira</p:nome>
+            <p:email>maria@exemplo.com</p:email>
+            <p:telefone>(21) 99876-5432</p:telefone>
+            <p:telefone>(21) 98765-4321</p:telefone>
+        </p:proprietario>
+        <p:endereco>
+            <p:rua>Rua das Flores</p:rua>
+            <p:bairro>Jardim Botânico</p:bairro>
+            <p:cidade>Rio de Janeiro</p:cidade>
+            <p:numero>123</p:numero>
+        </p:endereco>
+        <p:caracteristicas>
+            <p:tamanho>250m²</p:tamanho>
+            <p:numQuartos>4</p:numQuartos>
+            <p:numBanheiros>3</p:numBanheiros>
+        </p:caracteristicas>
+        <p:valor>2300000.00</p:valor>
+    </p:imovel>
+
+    <p:imovel>
+        <p:descricao>Kitnet no centro</p:descricao>
+        <p:proprietario>
+            <p:nome>Carlos Lima</p:nome>
+            <p:email>carlos.lima@kit.com</p:email>
+        </p:proprietario>
+        <p:endereco>
+            <p:rua>Rua Central</p:rua>
+            <p:bairro>Centro</p:bairro>
+            <p:cidade>São Paulo</p:cidade>
+            <p:numero>456</p:numero>
+        </p:endereco>
+        <p:caracteristicas>
+            <p:tamanho>35m²</p:tamanho>
+            <p:numQuartos>1</p:numQuartos>
+            <p:numBanheiros>1</p:numBanheiros>
+        </p:caracteristicas>
+        <p:valor>280000.00</p:valor>
+    </p:imovel>
+
+    <p:imovel>
+        <p:descricao>Chácara com piscina</p:descricao>
+        <p:proprietario>
+            <p:nome>Fernanda Souza</p:nome>
+            <p:telefone>(62) 93210-0000</p:telefone>
+        </p:proprietario>
+        <p:endereco>
+            <p:rua>Estrada da Lagoa</p:rua>
+            <p:bairro>Zona Rural</p:bairro>
+            <p:cidade>Goiânia</p:cidade>
+            <p:numero>KM 15</p:numero>
+        </p:endereco>
+        <p:caracteristicas>
+            <p:tamanho>5000m²</p:tamanho>
+            <p:numQuartos>5</p:numQuartos>
+            <p:numBanheiros>4</p:numBanheiros>
+        </p:caracteristicas>
+        <p:valor>950000.00</p:valor>
+    </p:imovel>
+
+    <p:imovel>
+        <p:descricao>Sobrado moderno</p:descricao>
+        <p:proprietario>
+            <p:nome>Bruno Ferreira</p:nome>
+            <p:email>bruno@modernhouse.com</p:email>
+            <p:telefone>(41) 90000-1234</p:telefone>
+        </p:proprietario>
+        <p:endereco>
+            <p:rua>Rua dos Cedros</p:rua>
+            <p:bairro>Alto da Glória</p:bairro>
+            <p:cidade>Curitiba</p:cidade>
+            <p:numero>78</p:numero>
+        </p:endereco>
+        <p:caracteristicas>
+            <p:tamanho>180m²</p:tamanho>
+            <p:numQuartos>3</p:numQuartos>
+            <p:numBanheiros>2</p:numBanheiros>
+        </p:caracteristicas>
+        <p:valor>720000.00</p:valor>
+    </p:imovel>
+
+</imobiliaria>

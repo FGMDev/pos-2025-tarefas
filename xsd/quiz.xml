@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz xmlns="http://prato.org"
+      xmlns:p="http://prato.org"
+      versao="1.0">
+
+    <p:disciplina>Matemática</p:disciplina>
+
+    <p:professor>
+        <p:nome>Carla Mendes</p:nome>
+        <p:matricula>12345</p:matricula>
+    </p:professor>
+
+    <p:turma>2B</p:turma>
+    <p:data>2025-05-22</p:data>
+
+    <p:questoes>
+        <p:questao>
+            <p:enunciado>Qual o valor de 2 + 2?</p:enunciado>
+            <p:pontuacao>1</p:pontuacao>
+            <p:alternativas>
+                <p:alternativa correta="nao">3</p:alternativa>
+                <p:alternativa correta="sim">4</p:alternativa>
+                <p:alternativa correta="nao">5</p:alternativa>
+                <p:alternativa correta="nao">6</p:alternativa>
+            </p:alternativas>
+        </p:questao>
+
+        <p:questao>
+            <p:enunciado>Qual é a capital da França?</p:enunciado>
+            <p:pontuacao>1</p:pontuacao>
+            <p:alternativas>
+                <p:alternativa correta="nao">Londres</p:alternativa>
+                <p:alternativa correta="sim">Paris</p:alternativa>
+                <p:alternativa correta="nao">Roma</p:alternativa>
+                <p:alternativa correta="nao">Berlim</p:alternativa>
+            </p:alternativas>
+        </p:questao>
+
+        <p:questao>
+            <p:enunciado>Quem escreveu "Dom Casmurro"?</p:enunciado>
+            <p:pontuacao>2</p:pontuacao>
+            <p:alternativas>
+                <p:alternativa correta="nao">José de Alencar</p:alternativa>
+                <p:alternativa correta="sim">Machado de Assis</p:alternativa>
+                <p:alternativa correta="nao">Carlos Drummond</p:alternativa>
+                <p:alternativa correta="nao">Clarice Lispector</p:alternativa>
+            </p:alternativas>
+        </p:questao>
+
+        <p:questao>
+            <p:enunciado>Qual é a fórmula da água?</p:enunciado>
+            <p:pontuacao>1</p:pontuacao>
+            <p:alternativas>
+                <p:alternativa correta="nao">CO2</p:alternativa>
+                <p:alternativa correta="sim">H2O</p:alternativa>
+                <p:alternativa correta="nao">O2</p:alternativa>
+                <p:alternativa correta="nao">H2SO4</p:alternativa>
+            </p:alternativas>
+        </p:questao>
+
+        <p:questao>
+            <p:enunciado>Em que ano o homem pisou na Lua?</p:enunciado>
+            <p:pontuacao>2</p:pontuacao>
+            <p:alternativas>
+                <p:alternativa correta="nao">1965</p:alternativa>
+                <p:alternativa correta="nao">1971</p:alternativa>
+                <p:alternativa correta="sim">1969</p:alternativa>
+                <p:alternativa correta="nao">1975</p:alternativa>
+            </p:alternativas>
+        </p:questao>
+    </p:questoes>
+
+</quiz>
