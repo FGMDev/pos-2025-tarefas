@@ -1,55 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:p="http://cardapio.org"
-    targetNamespace="http://cardapio.org"
-    elementFormDefault="unqualified">
+    xmlns:p="http://prato.org"
+    targetNamespace="http://prato.org"
+    elementFormDefault="qualified">
 
     <element name="Cardapio">
         <complexType>
             <sequence>
-                <element ref="p:Prato" maxOccurs="unbounded"/>
+                <element ref="p:prato" maxOccurs="unbounded"/>
             </sequence>
         </complexType>
     </element>
 
-    <element name="Prato">
+    <element name="prato">
         <complexType>
             <sequence>
-                <element ref="p:Nome"/>
-                <element ref="p:Descricao"/>
-                <element ref="p:Ingredientes"/>
-                <element ref="p:Preco"/>
-                <element ref="p:Calorias"/>
-                <element ref="p:TempoPreparo"/>
+                <element ref="p:nome"/>
+                <element ref="p:refeição"/>
+                <element ref="p:ingredientes"/>
+                <element ref="p:preço"/>
+                <element ref="p:dataCadastro"/>
             </sequence>
-            <attribute name="id" type="integer" use="required"/>
         </complexType>
     </element>
 
-    <element name="Nome" type="string"/>
-    <element name="Descricao" type="string"/>
-    <element name="TempoPreparo" type="string"/>
+    <element name="nome" type="string"/>
+    <element name="refeição" type="string"/>
+    <element name="ingrediente" type="string"/>
 
-    <element name="Calorias" type="integer"/>
-
-    <element name="Ingrediente" type="string"/>
-
-    <element name="Ingredientes">
+    <element name="ingredientes">
         <complexType>
             <sequence>
-                <element ref="p:Ingrediente" maxOccurs="unbounded"/>
+                <element ref="p:ingrediente" maxOccurs="unbounded"/>
             </sequence>
         </complexType>
     </element>
 
-    <element name="Preco">
-        <complexType>
-            <simpleContent>
-                <extension base="decimal">
-                    <attribute name="moeda" type="string" use="required"/>
-                </extension>
-            </simpleContent>
-        </complexType>
-    </element>
-
+    <element name="preço" type="decimal"/>
+    <element name="dataCadastro" type="date"/>
 </schema>
