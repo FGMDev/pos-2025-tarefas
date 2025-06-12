@@ -50,7 +50,7 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - https://dvcirilo-ifrn.github.io/pos/slides/aula08.html#36
 
 ### Tarefa 08 - JSON
-- **Entrega: 12/06/2025**
+- **Entrega: 19/06/2025**
 - Crie uma pasta `json` com os três arquivos da tarefa (`cardapio.json`, `imobiliaria.json` e `quiz.json`).
 - https://dvcirilo-ifrn.github.io/pos/slides/aula09.html#6
 
