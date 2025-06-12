@@ -1,0 +1,52 @@
+{
+    "cardapios": [
+        {
+            "pratos": [
+                {
+                    "id": 1,
+                    "nome": "Spaghetti à Macarrão",
+                    "descricao": "Delicioso espaguete com molho de macarrão especial.",
+                    "igredientes": [
+                        "Espaguete",
+                        "Macarrão",
+                        "Sal",
+                        "Molho de macarrão"
+                    ],
+                    "preco": 32.90,
+                    "dataCadastro": "2025-06-05"
+                },
+                {
+                    "id": 2,
+                    "nome": "Risonho de Cachorro",
+                    "descricao": "Risoto cremoso de arroz arbório com carne de cachorro.",
+                    "igredientes": [
+                        "Arroz arbório",
+                        "Carne de cachorro",
+                        "Vinho Branco",
+                        "Caldo de legumes",
+                        "Parmesão",
+                        "Mantiega"
+                    ],
+                    "preco": 38.50,
+                    "dataCadastro": "2025-06-05"
+                },
+                {
+                    "id": 3,
+                    "nome": "Frango Grelhado no Sol",
+                    "descricao": "Frango grelhado com um toque especial de sol.",
+                    "igredientes": [
+                        "Frango",
+                        "Abobringante",
+                        "Cenouradiente",
+                        "Pimentão",
+                        "Azeite",
+                        "Ervas Finas",
+                        "Sol"
+                    ],
+                    "preco": 29.00,
+                    "dataCadastro": "2025-06-05"
+                }
+            ]
+        }
+    ]
+}
