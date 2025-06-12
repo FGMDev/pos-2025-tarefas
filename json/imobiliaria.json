@@ -1,0 +1,58 @@
+{
+    "imobiliaria": {
+        "imoveis": [
+            {
+                "id": 1,
+                "descricao": "Apartamento de 2 quartos, sala, cozinha e banheiro.",
+                "proprietario": "João da Silva",
+                "endereco": {
+                    "rua": "Rua das Flores",
+                    "numero": 123,
+                    "bairro": "Jardim das Rosas",
+                    "cidade": "São Paulo"
+                },
+                "telefone": "(11) 98765-4321",
+                "preco": 250000.00
+            },
+            {
+                "id": 2,
+                "descricao": "Casa com 3 quartos, sala ampla, cozinha e quintal.",
+                "proprietario": "Maria Oliveira",
+                "endereco": {
+                    "rua": "Avenida Brasil",
+                    "numero": 456,
+                    "bairro": "Centro",
+                    "cidade": "São Paulo"
+                },
+                "telefone": "(11) 91234-5678",
+                "preco": 450000.00
+            },
+            {
+                "id": 3,
+                "descricao": "Cobertura duplex com vista para o mar.",
+                "proprietario": "Carlos Souza",
+                "endereco": {
+                    "rua": "Praia do Sol",
+                    "numero": 789,
+                    "bairro": "Litoral Sul",
+                    "cidade": "Santos"
+                },
+                "telefone": "(11) 99876-5432",
+                "preco": 1200000.00
+            },
+            {
+                "id": 4,
+                "descricao": "Sala comercial no centro da cidade.",
+                "proprietario": "Empresa XYZ",
+                "endereco": {
+                    "rua": "Rua do Comércio",
+                    "numero": 101,
+                    "bairro": "Centro",
+                    "cidade": "São Paulo"
+                },
+                "telefone": "(11) 92345-6789",
+                "preco": 300000.00
+            }
+        ]
+    }
+}
