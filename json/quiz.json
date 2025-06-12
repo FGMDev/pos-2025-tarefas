@@ -1,0 +1,46 @@
+{
+    "quiz": [
+        {
+            "disciplina": "Matemática",
+            "professor": {
+                "nome": "João da Silva",
+                "matricula": "123456"
+            },
+            "questoes": [
+                {
+                    "enunciado": "Qual é a raiz quadrada de 144?",
+                    "pontuacao": 2,
+                    "alternativas": [
+                        "12",
+                        "14",
+                        "16",
+                        "10"
+                    ],
+                    "alternativaCorreta": "12"
+                },
+                {
+                    "enunciado": "Quanto é 7 x 8?",
+                    "pontuacao": 2,
+                    "alternativas": [
+                        "54",
+                        "56",
+                        "58",
+                        "60"
+                    ],
+                    "alternativaCorreta": "56"
+                },
+                {
+                    "enunciado": "Qual é o valor de π (pi) aproximado?",
+                    "pontuacao": 2,
+                    "alternativas": [
+                        "2,14",
+                        "3,14",
+                        "4,14",
+                        "5,14"
+                    ],
+                    "alternativaCorreta": "3,14"
+                }
+            ]
+        }
+    ]
+}
