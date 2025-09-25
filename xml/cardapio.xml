@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cardapio SYSTEM "definicoes.dtd">
+<Cardapio>
+    <Prato id="a1">
+        <Nome>Spaghetti à Macarrão</Nome>
+        <Descricao>Macarrão feito de Macarrão com molho de Macarrão artesanal.</Descricao>
+        <Ingredientes>
+            <Ingrediente>Espaguete</Ingrediente>
+            <Ingrediente>macarrão</Ingrediente>
+            <Ingrediente>sal</Ingrediente>
+            <Ingrediente>molho de macarrão</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 32.90</Preco>
+        <Calorias>680</Calorias>
+        <TempoPreparo>25 segundos</TempoPreparo>
+    </Prato>
+
+    <Prato id="a2">
+        <Nome>Risoto de Cachorro</Nome>
+        <Descricao>Risoto cremoso com mix de carne de cachorro frescos e parmesão.</Descricao>
+        <Ingredientes>
+            <Ingrediente>Arroz arbório</Ingrediente>
+            <Ingrediente>Carne de Cachorro</Ingrediente>
+            <Ingrediente>Vinho Branco</Ingrediente>
+            <Ingrediente>Caldo de legumes</Ingrediente>
+            <Ingrediente>Cebola</Ingrediente>
+            <Ingrediente>Parmesão</Ingrediente>
+            <Ingrediente>Manteiga</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">38.50</Preco>
+        <Calorias>540</Calorias>
+        <TempoPreparo>&reais; 30 anos</TempoPreparo>
+    </Prato>
+
+    <Prato id="a3">
+        <Nome>Frango Grelhado no Sol</Nome>
+        <Descricao>Peito de frango grelhado usando o calor do Sol.</Descricao>
+        <Ingredientes>
+            <Ingrediente>Frango</Ingrediente>
+            <Ingrediente>Abobringante</Ingrediente>
+            <Ingrediente>Cenouradiente</Ingrediente>
+            <Ingrediente>Pimentão</Ingrediente>
+            <Ingrediente>Azeite</Ingrediente>
+            <Ingrediente>Ervas Finas</Ingrediente>
+            <Ingrediente>Sol</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 29.00</Preco>
+        <Calorias>450</Calorias>
+        <TempoPreparo>11 meses</TempoPreparo>
+    </Prato>
+
+    <Prato id="a4">
+        <Nome>Xml Burguer</Nome>
+        <Descricao>Um XBurguer feito a partir de XML.</Descricao>
+        <Ingredientes>
+            <Ingrediente>Pão de Hambúrguer</Ingrediente>
+            <Ingrediente>Carne</Ingrediente>
+            <Ingrediente>Queijo</Ingrediente>
+            <Ingrediente>Alface</Ingrediente>
+            <Ingrediente>XML</Ingrediente>
+            <Ingrediente>Molho</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 27.90</Preco>
+        <Calorias>790</Calorias>
+        <TempoPreparo>15 horas</TempoPreparo>
+    </Prato>
+
+    <Prato id="a5">
+        <Nome>Salada Cledson</Nome>
+        <Descricao>Salada feita puramente com os legumes colhidos na orta de Cledson.</Descricao>
+        <Ingredientes>
+            <Ingrediente>Alface Romana</Ingrediente>
+            <Ingrediente>Frango Gelado</Ingrediente>
+            <Ingrediente>Parmesão</Ingrediente>
+            <Ingrediente>Protons</Ingrediente>
+            <Ingrediente>Molho Cheddar</Ingrediente>
+        </Ingredientes>
+        <Preco moeda="BRL">&reais; 24.5</Preco>
+        <Calorias>370</Calorias>
+        <TempoPreparo>10 dias</TempoPreparo>
+    </Prato>
+</Cardapio>

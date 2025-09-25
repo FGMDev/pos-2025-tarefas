@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:p="http://prato.org"
+    targetNamespace="http://prato.org"
+    elementFormDefault="qualified">
+
+    <element name="Cardapio">
+        <complexType>
+            <sequence>
+                <element ref="p:prato" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="prato">
+        <complexType>
+            <sequence>
+                <element ref="p:nome"/>
+                <element ref="p:refeição"/>
+                <element ref="p:ingredientes"/>
+                <element ref="p:preço"/>
+                <element ref="p:dataCadastro"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="nome" type="string"/>
+    <element name="refeição" type="string"/>
+    <element name="ingrediente" type="string"/>
+
+    <element name="ingredientes">
+        <complexType>
+            <sequence>
+                <element ref="p:ingrediente" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="preço" type="decimal"/>
+    <element name="dataCadastro" type="date"/>
+</schema>

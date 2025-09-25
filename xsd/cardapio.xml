@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cardapio xmlns="http://prato.org"
+          xmlns:p="http://prato.org">
+
+    <p:prato>
+        <p:nome>Spaghetti à Macarrão</p:nome>
+        <p:refeição>almoço</p:refeição>
+        <p:ingredientes>
+            <p:ingrediente>Espaguete</p:ingrediente>
+            <p:ingrediente>macarrão</p:ingrediente>
+            <p:ingrediente>sal</p:ingrediente>
+            <p:ingrediente>molho de macarrão</p:ingrediente>
+        </p:ingredientes>
+        <p:preço>32.90</p:preço>
+        <p:dataCadastro>2025-06-05</p:dataCadastro>
+    </p:prato>
+
+    <p:prato>
+        <p:nome>Risoto de Cachorro</p:nome>
+        <p:refeição>janta</p:refeição>
+        <p:ingredientes>
+            <p:ingrediente>Arroz arbório</p:ingrediente>
+            <p:ingrediente>Carne de Cachorro</p:ingrediente>
+            <p:ingrediente>Vinho Branco</p:ingrediente>
+            <p:ingrediente>Caldo de legumes</p:ingrediente>
+            <p:ingrediente>Cebola</p:ingrediente>
+            <p:ingrediente>Parmesão</p:ingrediente>
+            <p:ingrediente>Manteiga</p:ingrediente>
+        </p:ingredientes>
+        <p:preço>38.50</p:preço>
+        <p:dataCadastro>2025-06-05</p:dataCadastro>
+    </p:prato>
+
+    <p:prato>
+        <p:nome>Frango Grelhado no Sol</p:nome>
+        <p:refeição>almoço</p:refeição>
+        <p:ingredientes>
+            <p:ingrediente>Frango</p:ingrediente>
+            <p:ingrediente>Abobringante</p:ingrediente>
+            <p:ingrediente>Cenouradiente</p:ingrediente>
+            <p:ingrediente>Pimentão</p:ingrediente>
+            <p:ingrediente>Azeite</p:ingrediente>
+            <p:ingrediente>Ervas Finas</p:ingrediente>
+            <p:ingrediente>Sol</p:ingrediente>
+        </p:ingredientes>
+        <p:preço>29.00</p:preço>
+        <p:dataCadastro>2025-06-05</p:dataCadastro>
+    </p:prato>
+
+    <p:prato>
+        <p:nome>Xml Burguer</p:nome>
+        <p:refeição>janta</p:refeição>
+        <p:ingredientes>
+            <p:ingrediente>Pão de Hambúrguer</p:ingrediente>
+            <p:ingrediente>Carne</p:ingrediente>
+            <p:ingrediente>Queijo</p:ingrediente>
+            <p:ingrediente>Alface</p:ingrediente>
+            <p:ingrediente>XML</p:ingrediente>
+            <p:ingrediente>Molho</p:ingrediente>
+        </p:ingredientes>
+        <p:preço>27.90</p:preço>
+        <p:dataCadastro>2025-06-05</p:dataCadastro>
+    </p:prato>
+
+    <p:prato>
+        <p:nome>Salada Cledson</p:nome>
+        <p:refeição>café</p:refeição>
+        <p:ingredientes>
+            <p:ingrediente>Alface Romana</p:ingrediente>
+            <p:ingrediente>Frango Gelado</p:ingrediente>
+            <p:ingrediente>Parmesão</p:ingrediente>
+            <p:ingrediente>Protons</p:ingrediente>
+            <p:ingrediente>Molho Cheddar</p:ingrediente>
+        </p:ingredientes>
+        <p:preço>24.50</p:preço>
+        <p:dataCadastro>2025-06-05</p:dataCadastro>
+    </p:prato>
+
+</Cardapio>
